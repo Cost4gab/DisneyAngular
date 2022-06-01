@@ -1,0 +1,53 @@
+nav{
+    background-color: #fff;
+    padding: 20px, 100px ;
+}
+
+ul {
+    li{
+        font-weight: 650;
+        position: relative;
+        padding: 12px;
+        text-align: left;
+        &:hover{
+           ul{ display: block;
+           }
+           
+       }
+        a{
+            color: black;
+            font-size: 14px;
+
+        }
+    }
+    ul {
+        display: none;
+        position: fixed;
+        background-color: rgb(43, 43, 43);
+        text-align: left;
+        
+        li{ list-style: none;
+           padding: 10px;
+           text-decoration: none;
+            
+            
+
+            a{
+                color: rgb(233, 231, 231);
+                &:hover{
+                    color:rgb(60, 162, 187)
+                }
+                margin-right: 30px;
+                
+                
+                
+
+                
+            }
+        }
+    
+    }
+}
+video{
+    margin-top: 5%;
+}
